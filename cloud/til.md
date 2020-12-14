@@ -14,3 +14,7 @@ https://forums.docker.com/t/how-to-delete-cache/5753
 ## PromQL 기초 지식 - Proper Mental Model
 
 Look for a video stream - PromCon EU 2019: PromQL for Mere Mortals
+
+## 202 백엔드 개발자 로드맵
+
+https://velog.io/@exploit017/2020-백엔드-개발자-로드맵
