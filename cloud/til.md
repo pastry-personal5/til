@@ -17,4 +17,4 @@ Look for a video stream - PromCon EU 2019: PromQL for Mere Mortals
 
 ## 2020 백엔드 개발자 로드맵
 
-https://velog.io/@exploit017/2020-백엔드-개발자-로드맵
+초보자용 - https://velog.io/@exploit017/2020-백엔드-개발자-로드맵
