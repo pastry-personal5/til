@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Download a full-size image from a website
+
+# Check the number of arguments
+if [ "$#" -eq 1 ]; then
+    echo "Number of arguments is 1."
+    input_string=$1
+else
+    echo "Number of arguments is not 1."
+    exit -1
+fi
+
+
+# data-before-crop-src //img.ltwebstatic.com/images3_pi/2023/05/05/16832830798a9fd0645279ee9e237097f6062a4248_thumbnail_600x.jpg
+
+substring_to_remove_0000="https:"
+substring_to_remove_0001="_thumbnail_600x"
+prefix="https:"
+
+interim_string="${input_string//$substring_to_remove_0000/}"
+result_string="${prefix}${interim_string//$substring_to_remove_0001/}"
+
+# Print the result
+echo "Resulting string: $result_string"
+
+wget ${result_string}
